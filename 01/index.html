@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercícios Interativos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Exercícios Interativos</h1>
+
+    <!-- Exercício 1 -->
+    <section>
+      <h2>1. Nome e Sexo</h2>
+      <input type="text" id="nome" placeholder="Digite seu nome" />
+      <select id="sexo">
+        <option value="Masculino">Masculino</option>
+        <option value="Feminino">Feminino</option>
+        <option value="Outro">Outro</option>
+      </select>
+      <button onclick="exibirNomeSexo()">Exibir</button>
+      <p id="res1"></p>
+    </section>
+
+    <!-- Exercício 2 -->
+    <section>
+      <h2>2. Soma e Multiplicação</h2>
+      <input type="number" id="n1" placeholder="N1" />
+      <input type="number" id="n2" placeholder="N2" />
+      <input type="number" id="n3" placeholder="N3" />
+      <input type="number" id="n4" placeholder="N4" />
+      <button onclick="calcularSomaMultiplicacao()">Calcular</button>
+      <p id="res2"></p>
+    </section>
+
+    <!-- Exercício 3 -->
+    <section>
+      <h2>3. Conversão de Moeda</h2>
+      <input type="number" id="dolar" placeholder="Valor em dólar" />
+      <button onclick="converterMoeda()">Converter</button>
+      <p id="res3"></p>
+    </section>
+
+    <!-- Exercício 4 -->
+    <section>
+      <h2>4. Antecessor e Sucessor</h2>
+      <input type="number" id="num" placeholder="Digite um número" />
+      <button onclick="mostrarVizinho()">Mostrar</button>
+      <p id="res4"></p>
+    </section>
+
+    <!-- Exercício 5 -->
+    <section>
+      <h2>5. Aumento de Salário</h2>
+      <input type="number" id="salario" placeholder="Salário atual" />
+      <button onclick="calcularAumento()">Calcular</button>
+      <p id="res5"></p>
+    </section>
+
+    <!-- Exercício 6 -->
+    <section>
+      <h2>6. Fahrenheit para Celsius</h2>
+      <input type="number" id="fahrenheit" placeholder="Temperatura em °F" />
+      <button onclick="converterCelsius()">Converter</button>
+      <p id="res6"></p>
+    </section>
+
+    <!-- Exercício 7 -->
+    <section>
+      <h2>7. Média de Notas</h2>
+      <input type="number" id="m1" placeholder="Nota 1" />
+      <input type="number" id="m2" placeholder="Nota 2" />
+      <input type="number" id="m3" placeholder="Nota 3" />
+      <button onclick="calcularMedia()">Calcular</button>
+      <p id="res7"></p>
+    </section>
+
+    <!-- Exercício 8 -->
+    <section>
+      <h2>8. Análise de Vendas</h2>
+      <button onclick="exercicio8()">Analisar</button>
+      <pre id="res8"></pre>
+    </section>
+
+    <!-- Exercício 9 -->
+    <section>
+      <h2>9. Quadrado e Raiz</h2>
+      <input type="number" id="numero" placeholder="Digite um número" />
+      <button onclick="mostrarCalculos()">Calcular</button>
+      <p id="res9"></p>
+    </section>
+
+    <!-- Exercício 10 -->
+    <section>
+      <h2>10. Prestação em Atraso</h2>
+      <input type="number" id="valor" placeholder="Valor da dívida" />
+      <input type="number" id="taxa" placeholder="Taxa de juros (%)" />
+      <input type="number" id="dias" placeholder="Dias em atraso" />
+      <button onclick="calcularPrestacao()">Calcular</button>
+      <p id="res10"></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
